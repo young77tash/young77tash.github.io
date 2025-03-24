@@ -1,0 +1,78 @@
+
+body {
+    background: linear-gradient(150deg, #0ba2f8 0%, #021983 100%);
+}
+
+.navbar-brand img {
+    width: 80px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #aaaaaa;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #ffffff;
+}
+
+.navbar-toggler {
+    background-color: #ffffff;
+}
+
+.sidebar {
+    color: #ffffff;
+    background-color: #ffffff31;
+    border: 0.5px solid #ffffff96;
+    border-radius: 5px;
+}
+
+.sidebar a {
+    display: inline-block;
+    text-decoration-line: none;
+    color: #ffffff9a;
+    font-weight: bold;
+    padding: 6px;
+    border: 0.5px solid #ffffff96;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.main-slides {
+    border: 0.5px solid #ffffff96;
+}
+
+footer {
+    background-color: #000000b7;
+    border-top: 1px solid #ffffff77;
+    color: white;
+    padding: 30px;
+}
+
+.footer-text, .footer-text a {
+    margin: auto auto;
+    color: white;
+    text-decoration: none;
+    transition: .5s;    
+}
+
+.footer-img {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-img img {
+    width: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    transition: .5s;
+}
+
+.footer-img a {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-img img:hover, .footer-text a:hover {
+    filter: invert(0.5);
+}
